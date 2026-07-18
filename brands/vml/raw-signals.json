@@ -1,0 +1,175 @@
+{
+  "brandSlug": "vml",
+  "colors": [
+    { "value": "#ffffff", "count": 1315, "property": "backgroundColor", "example": "body.en" },
+    { "value": "#000000", "count": 1250, "property": "color", "example": "html" },
+    { "value": "#0000ee", "count": 45, "property": "color", "example": "a.linkedin" },
+    { "value": "#3a4f5f", "count": 44, "property": "color", "example": "div.modal" },
+    { "value": "#555555", "count": 44, "property": "color", "example": "button.ot-close-icon" },
+    { "value": "#212322", "count": 27, "property": "color", "example": "a.privacy-notice-link" },
+    { "value": "#27455c", "count": 16, "property": "backgroundColor", "example": "span" },
+    { "value": "#104b68", "count": 14, "property": "backgroundColor", "example": "div.text-holder" },
+    { "value": "#191919", "count": 13, "property": "backgroundColor", "example": "section.cnt" },
+    { "value": "#983f03", "count": 8, "property": "backgroundColor", "example": "div.text-holder" },
+    { "value": "#546232", "count": 8, "property": "backgroundColor", "example": "div.text-holder" },
+    { "value": "#723065", "count": 7, "property": "backgroundColor", "example": "div.text-holder" },
+    { "value": "#3860be", "count": 7, "property": "color", "example": "div.ot-always-active" },
+    { "value": "#f8f8f8", "count": 8, "property": "backgroundColor", "example": "div.ot-acc-grpcntr" },
+    { "value": "#656565", "count": 6, "property": "color", "example": "a" },
+    { "value": "#323232", "count": 6, "property": "backgroundColor", "example": "div.submenu-wrapper" },
+    { "value": "#767676", "count": 6, "property": "backgroundColor", "example": "span.ot-switch-nob" },
+    { "value": "#ae7408", "count": 3, "property": "backgroundColor", "example": "div.text-holder" },
+    { "value": "#dddddd", "count": 3, "property": "borderColor", "example": "span.ot-switch-nob" },
+    { "value": "#98aaaf", "count": 1, "property": "backgroundColor", "example": "div (about-us)" },
+    { "value": "rgba(0, 0, 0, 0.5)", "count": 4, "property": "backgroundColor", "example": "button.button" },
+    { "value": "rgba(255, 255, 255, 0.2)", "count": 6, "property": "backgroundColor", "example": "div" },
+    { "value": "#696969", "count": 2, "property": "color", "example": "div" },
+    { "value": "#53544a", "count": 1, "property": "backgroundColor", "example": "button" },
+    { "value": "rgba(255, 255, 255, 0.95)", "count": 1, "property": "backgroundColor", "example": "div.modal" },
+    { "value": "#32ae88", "count": 1, "property": "borderColor", "example": "div.ot-optout-signal" },
+    { "value": "#f9fffa", "count": 1, "property": "backgroundColor", "example": "div.ot-optout-signal" },
+    { "value": "#f4f4f4", "count": 1, "property": "backgroundColor", "example": "div.ot-pc-footer-logo" }
+  ],
+  "typography": [
+    { "role": "h1", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "68.8px", "fontWeight": "900", "lineHeight": "64px", "letterSpacing": "normal", "count": 1 },
+    { "role": "h2", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "48px", "fontWeight": "400", "lineHeight": "48px", "letterSpacing": "normal", "count": 7 },
+    { "role": "h2", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "43.2px", "fontWeight": "400", "lineHeight": "51.2px", "letterSpacing": "normal", "count": 1 },
+    { "role": "h2", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "26px", "fontWeight": "400", "lineHeight": "48px", "letterSpacing": "normal", "count": 7 },
+    { "role": "h3", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "46.4px", "fontWeight": "700", "lineHeight": "44.8px", "letterSpacing": "normal", "count": 5 },
+    { "role": "h3", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "41.6px", "fontWeight": "700", "lineHeight": "40px", "letterSpacing": "normal", "count": 4 },
+    { "role": "h3", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "36.8px", "fontWeight": "700", "lineHeight": "35.2px", "letterSpacing": "normal", "count": 3 },
+    { "role": "h3", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "31.2px", "fontWeight": "700", "lineHeight": "normal", "letterSpacing": "normal", "count": 8 },
+    { "role": "h4", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "14px", "fontWeight": "600", "lineHeight": "21px", "letterSpacing": "normal", "count": 3 },
+    { "role": "h5", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "22.4px", "fontWeight": "700", "lineHeight": "normal", "letterSpacing": "normal", "count": 12 },
+    { "role": "p", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "17.92px", "fontWeight": "400", "lineHeight": "26px", "letterSpacing": "0.2px", "count": 4 },
+    { "role": "p", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "12.992px", "fontWeight": "400", "lineHeight": "19.488px", "letterSpacing": "normal", "count": 4 },
+    { "role": "body/li", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "16px", "fontWeight": "400", "lineHeight": "normal", "letterSpacing": "normal", "count": 43 },
+    { "role": "a", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "16px", "fontWeight": "400", "lineHeight": "normal", "letterSpacing": "normal", "count": 33 },
+    { "role": "a", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "18px", "fontWeight": "700", "lineHeight": "normal", "letterSpacing": "normal", "count": 20 },
+    { "role": "a/nav", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "12px", "fontWeight": "700", "lineHeight": "normal", "letterSpacing": "normal", "count": 27 },
+    { "role": "a/eyebrow", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "16px", "fontWeight": "700", "lineHeight": "normal", "letterSpacing": "3.2px", "count": 3 },
+    { "role": "button", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "14.4px", "fontWeight": "700", "lineHeight": "14.4px", "letterSpacing": "0.144px", "count": 10 },
+    { "role": "span", "fontFamily": "SnowflakeSans, Arial, sans-serif", "fontSize": "24px", "fontWeight": "400", "lineHeight": "normal", "letterSpacing": "normal", "count": 8 }
+  ],
+  "fonts": [
+    { "family": "SnowflakeSans", "weights": ["400"], "srcUrl": "https://assets.vml.com/fonts/snowflake/SnowflakeSans-Book.woff2", "file": "assets/fonts/SnowflakeSans-400.woff2", "downloaded": true, "source": "self-hosted" },
+    { "family": "SnowflakeSans", "weights": ["600"], "srcUrl": "https://assets.vml.com/fonts/snowflake/SnowflakeSans-Medium.woff2", "file": "assets/fonts/SnowflakeSans-600.woff2", "downloaded": true, "source": "self-hosted" },
+    { "family": "SnowflakeSans", "weights": ["700"], "srcUrl": "https://assets.vml.com/fonts/snowflake/SnowflakeSans-Bold.woff2", "file": "assets/fonts/SnowflakeSans-700.woff2", "downloaded": true, "source": "self-hosted" },
+    { "family": "SnowflakeSans", "weights": ["400i"], "srcUrl": "https://assets.vml.com/fonts/snowflake/SnowflakeSans-Italic.woff2", "file": "assets/fonts/SnowflakeSans-400i.woff2", "downloaded": true, "source": "self-hosted" }
+  ],
+  "spacing": [
+    "2px", "3px", "4.8px", "5px", "6.4px", "6.66667px", "8px", "9.4px", "10px", "11.2px", "12px", "12.8px", "16px", "17.92px", "18px", "19.2px", "20px", "24px", "28px", "32px", "34.6944px", "40px", "48px", "69.3889px", "80px"
+  ],
+  "radii": [
+    "1px", "1.6px", "2px", "2.5px", "3px", "17px", "20px", "32px", "50px"
+  ],
+  "shadows": [
+    "rgba(0, 0, 0, 0.2) 0px 5px 10px 0px",
+    "rgb(58, 79, 95) 0px 0px 10px 0px",
+    "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+    "rgb(153, 153, 153) 0px 2px 10px -3px",
+    "rgb(199, 197, 199) -3px -3px 5px -2px",
+    "rgb(199, 197, 199) 0px 0px 12px 2px"
+  ],
+  "gradients": [
+    { "value": "linear-gradient(360deg, rgba(44, 44, 45, 0.8), rgba(44, 44, 45, 0.4) 60%, rgba(44, 44, 45, 0))", "count": 10 },
+    { "value": "linear-gradient(to right, rgba(255, 255, 255, 0.4) 50%, rgb(255, 255, 255) 50%)", "count": 1 }
+  ],
+  "colorPairs": [
+    { "selector": "body", "color": "#000000", "background": "#ffffff", "role": "body" },
+    { "selector": "a", "color": "#ffffff", "background": "#000000", "role": "link" },
+    { "selector": "button.button", "color": "#ffffff", "background": "#000000", "role": "button" },
+    { "selector": "button", "color": "#000000", "background": "transparent", "role": "button" },
+    { "selector": ".card-link", "color": "#ffffff", "background": "transparent", "role": "card" },
+    { "selector": "header", "color": "#000000", "background": "transparent", "role": "header" },
+    { "selector": "footer", "color": "#ffffff", "background": "#000000", "role": "footer" }
+  ],
+  "motion": [
+    { "value": "transition: all", "duration": "0s", "easing": "ease", "count": 919 },
+    { "value": "transition: opacity", "duration": "1s", "easing": "ease-in-out", "count": 14 },
+    { "value": "transition: top", "duration": "0.06s", "easing": "ease-out", "count": 7 },
+    { "value": "transition: opacity", "duration": "0.3s", "easing": "ease", "count": 4 },
+    { "value": "transition", "duration": "0.25s", "easing": "ease-out", "count": 4 },
+    { "value": "transition: left", "duration": "0.4s", "easing": "ease-in-out", "count": 3 },
+    { "value": "transition", "duration": "0.2s", "easing": "ease-in", "count": 3 },
+    { "value": "transition: opacity", "duration": "0.1s", "easing": "linear", "count": 2 },
+    { "value": "animation: onetrust-fade-in", "duration": "0.4s", "easing": "ease-in-out", "count": 2 },
+    { "value": "transition: left, transform, visibility", "duration": "1s / 1.5s / 0.5s", "easing": "ease-in-out", "count": 1 },
+    { "value": "animation: loader-bar", "duration": "7s", "easing": "linear", "count": 1 }
+  ],
+  "logoVariants": [
+    { "role": "header", "url": "inline-svg:VML wordmark (sprite symbol, viewBox 0 0 62 19, fill currentColor)", "file": "assets/logo-header.svg" },
+    { "role": "mark", "url": "inline-svg:VML (header logo, aria-label 'VML')", "file": "assets/logo.svg" },
+    { "role": "inverted", "url": "inline-svg:VML wordmark rendered white-on-black in footer (currentColor #ffffff)", "file": "assets/logo-header.svg" },
+    { "role": "seo-image", "url": "https://www.vml.com/img/vml-logo-seo-4x3.jpg", "file": "assets/vml-logo-seo-4x3.jpg" }
+  ],
+  "icons": [
+    { "style": "filled", "strokeWidth": null, "file": "assets/icons/linkedin.svg" },
+    { "style": "filled", "strokeWidth": null, "file": "assets/icons/awards.svg" },
+    { "style": "filled", "strokeWidth": null, "file": null }
+  ],
+  "imagery": [
+    { "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/01/dqxnv7tu4cl9tp6ototl/f1002026hero.jpg", "aspectRatio": "1.778", "kind": "photo", "file": "assets/imagery/future100-hero.jpg" },
+    { "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/06/too0eprpx73fclzh5tbh/recognitionvmltitaniumoreocows.jpg", "aspectRatio": "1.778", "kind": "photo", "file": "assets/imagery/oreo-cows.jpg" },
+    { "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/05/xtvkz5ehvh6ogcyaiqzv/vmlcanneslions2026mainheroimage.jpg", "aspectRatio": "1.778", "kind": "photo", "file": null }
+  ],
+  "components": {
+    "button": {
+      "padding": "32px 80px",
+      "borderRadius": "32px",
+      "background": "#000000",
+      "color": "#ffffff",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "boxShadow": "rgba(0, 0, 0, 0.2) 0px 5px 10px 0px",
+      "border": "2px solid rgb(255, 255, 255)"
+    },
+    "card": {
+      "padding": "0px 0px 3px",
+      "borderRadius": "0px",
+      "background": "transparent",
+      "color": "#ffffff",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "boxShadow": "none",
+      "border": ""
+    }
+  },
+  "breakpoints": [
+    "400px", "425px", "426px", "500px", "530px", "550px", "599px", "600px", "700px", "768px", "769px", "796px", "890px", "896px", "897px", "979px", "980px", "1023px", "1024px", "1048px", "1139px", "1179px", "1180px", "1280px", "1440px"
+  ],
+  "darkMode": null,
+  "manifest": {
+    "name": "VML",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+      { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+      { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+    ]
+  },
+  "assets": [
+    { "url": "https://www.vml.com/favicon.svg?v=2024", "hint": "favicon", "file": "assets/favicon.svg" },
+    { "url": "https://www.vml.com/apple-touch-icon.png?v=2024", "hint": "favicon", "file": "assets/apple-touch-icon.png" },
+    { "url": "inline-svg:VML wordmark (header sprite symbol, viewBox 0 0 62 19)", "hint": "logo", "file": "assets/logo-header.svg" },
+    { "url": "inline-svg:VML (header logo, aria-label 'VML')", "hint": "logo", "file": "assets/logo.svg" },
+    { "url": "inline-svg:LinkedIn social icon (footer sprite symbol)", "hint": "icon", "file": "assets/icons/linkedin.svg" },
+    { "url": "inline-svg:Has Awards badge icon (sprite symbol)", "hint": "icon", "file": "assets/icons/awards.svg" },
+    { "url": "https://www.vml.com/img/vml-logo-seo-4x3.jpg", "hint": "image", "file": "assets/vml-logo-seo-4x3.jpg" },
+    { "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/01/dqxnv7tu4cl9tp6ototl/f1002026hero.jpg", "hint": "image", "file": "assets/imagery/future100-hero.jpg" },
+    { "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/06/too0eprpx73fclzh5tbh/recognitionvmltitaniumoreocows.jpg", "hint": "image", "file": "assets/imagery/oreo-cows.jpg" },
+    { "url": "https://cdn.cookielaw.org/logos/64853de7-0f2c-4b42-b99c-a04da5e8e2de/190142a5-7cfb-4b29-84c7-5ba542f537ef/09060983-7189-4c23-b926-db55f3f5ba50/vml-logo.png", "hint": "logo", "file": null }
+  ],
+  "content": {
+    "headline": "We put everything we are into everything we do",
+    "tagline": "A global creative company",
+    "valueProps": [
+      "VML is a global creative company that believes the most powerful way to drive growth is by creating connected brands.",
+      "We bring this to life by seamlessly connecting Brand Experience, Customer Experience, and Commerce, always thinking about the entire journey a person has with a brand — from first impression to purchase and beyond.",
+      "By blending our award-winning creativity with deep technical expertise, we offer something unique — the vision of a creative agency with the power of a technology consultancy.",
+      "Our 26,000 talented people across the globe provide the local insights and worldwide scale to develop ideas that matter and that create impact for our partners.",
+      "When you put human connection at the heart of a brand, it doesn’t just grow — it thrives."
+    ],
+    "tone": "Confident, human-centric, and ambitious. Blends creative-agency warmth with technology-consultancy authority; emphasizes connection, scale, growth, and craft. Corporate but aspirational (© 2026 VML, A WPP Company)."
+  }
+}

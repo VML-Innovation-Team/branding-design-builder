@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Brand Spec",
+  "description": "Stage-2 (brand-analyzer) output: structured, named design data.",
+  "type": "object",
+  "required": ["brandSlug", "palette", "typography"],
+  "properties": {
+    "brandSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "palette": {
+      "type": "object",
+      "required": ["primary"],
+      "properties": {
+        "primary": { "type": "string" },
+        "secondary": { "type": "string" },
+        "accent": { "type": "string" },
+        "neutral": { "type": "object", "additionalProperties": { "type": "string" } },
+        "semantic": { "type": "object", "additionalProperties": { "type": "string" } }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "required": ["fontFamilies"],
+      "properties": {
+        "fontFamilies": {
+          "type": "object",
+          "properties": {
+            "heading": { "type": "string" },
+            "body": { "type": "string" },
+            "mono": { "type": "string" }
+          }
+        },
+        "scale": { "type": "object", "additionalProperties": { "type": "string" } },
+        "weights": { "type": "array", "items": { "type": ["integer", "string"] } },
+        "lineHeights": { "type": "object", "additionalProperties": { "type": ["number", "string"] } }
+      }
+    },
+    "spacing": { "type": "object", "additionalProperties": { "type": "string" } },
+    "radii": { "type": "object", "additionalProperties": { "type": "string" } },
+    "shadows": { "type": "object", "additionalProperties": { "type": "string" } },
+    "gradients": { "type": "object", "additionalProperties": { "type": "string" }, "description": "named gradient CSS values" },
+    "motion": {
+      "type": "object",
+      "properties": {
+        "durations": { "type": "object", "additionalProperties": { "type": "string" } },
+        "easings": { "type": "object", "additionalProperties": { "type": "string" } }
+      }
+    },
+    "colorUsage": {
+      "type": "object",
+      "description": "named usage rules derived from colorPairs",
+      "properties": {
+        "text": { "type": "string" },
+        "background": { "type": "string" },
+        "link": { "type": "string" },
+        "buttonFill": { "type": "string" },
+        "buttonText": { "type": "string" }
+      },
+      "additionalProperties": { "type": "string" }
+    },
+    "breakpoints": { "type": "object", "additionalProperties": { "type": "string" } },
+    "darkMode": { "type": ["object", "null"] },
+    "components": {
+      "type": "object",
+      "additionalProperties": { "type": "object" },
+      "description": "named component recipes (button, card, ...) carried through from raw signals"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role"],
+        "properties": {
+          "role": { "type": "string" },
+          "url": { "type": ["string", "null"] },
+          "file": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "gaps": { "type": "array", "items": { "type": "string" } }
+  }
+}

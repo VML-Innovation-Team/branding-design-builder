@@ -1,0 +1,165 @@
+{
+  "brandSlug": "vml",
+  "palette": {
+    "primary": "#000000",
+    "secondary": "#27455c",
+    "accent": "#104b68",
+    "neutral": {
+      "0": "#ffffff",
+      "50": "#f8f8f8",
+      "100": "#dddddd",
+      "300": "#767676",
+      "400": "#656565",
+      "500": "#555555",
+      "600": "#3a4f5f",
+      "700": "#323232",
+      "800": "#212322",
+      "900": "#191919"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "heading": "SnowflakeSans, Arial, sans-serif",
+      "body": "SnowflakeSans, Arial, sans-serif"
+    },
+    "scale": {
+      "xs": "12px",
+      "sm": "14.4px",
+      "base": "16px",
+      "lg": "18px",
+      "xl": "22.4px",
+      "2xl": "24px",
+      "3xl": "26px",
+      "4xl": "31.2px",
+      "5xl": "36.8px",
+      "6xl": "41.6px",
+      "7xl": "46.4px",
+      "8xl": "48px",
+      "9xl": "68.8px"
+    },
+    "weights": [400, 600, 700, 900],
+    "lineHeights": {
+      "heading": 0.93,
+      "tight": 1.0,
+      "body": 1.45
+    }
+  },
+  "spacing": {
+    "px": "1px",
+    "0.5": "2px",
+    "1": "4.8px",
+    "2": "8px",
+    "3": "10px",
+    "4": "12px",
+    "5": "16px",
+    "6": "18px",
+    "7": "20px",
+    "8": "24px",
+    "9": "28px",
+    "10": "32px",
+    "12": "40px",
+    "14": "48px",
+    "20": "80px"
+  },
+  "radii": {
+    "sm": "2px",
+    "md": "17px",
+    "lg": "20px",
+    "xl": "32px",
+    "full": "50px"
+  },
+  "shadows": {
+    "sm": "rgb(153, 153, 153) 0px 2px 10px -3px",
+    "md": "rgba(0, 0, 0, 0.2) 0px 5px 10px 0px",
+    "lg": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+    "glow": "rgb(58, 79, 95) 0px 0px 10px 0px",
+    "soft": "rgb(199, 197, 199) 0px 0px 12px 2px",
+    "raised": "rgb(199, 197, 199) -3px -3px 5px -2px"
+  },
+  "gradients": {
+    "overlay": "linear-gradient(360deg, rgba(44, 44, 45, 0.8), rgba(44, 44, 45, 0.4) 60%, rgba(44, 44, 45, 0))",
+    "reveal": "linear-gradient(to right, rgba(255, 255, 255, 0.4) 50%, rgb(255, 255, 255) 50%)"
+  },
+  "motion": {
+    "durations": {
+      "instant": "0s",
+      "fast": "0.1s",
+      "quick": "0.2s",
+      "base": "0.25s",
+      "moderate": "0.3s",
+      "slow": "0.4s",
+      "slowest": "1s",
+      "loader": "7s"
+    },
+    "easings": {
+      "default": "ease",
+      "in": "ease-in",
+      "out": "ease-out",
+      "inOut": "ease-in-out",
+      "linear": "linear"
+    }
+  },
+  "colorUsage": {
+    "text": "#000000",
+    "background": "#ffffff",
+    "link": "#ffffff",
+    "buttonFill": "#000000",
+    "buttonText": "#ffffff",
+    "footerBackground": "#000000",
+    "footerText": "#ffffff"
+  },
+  "breakpoints": {
+    "sm": "600px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "2xl": "1440px"
+  },
+  "darkMode": null,
+  "components": {
+    "button": {
+      "padding": "32px 80px",
+      "borderRadius": "32px",
+      "background": "#000000",
+      "color": "#ffffff",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "boxShadow": "rgba(0, 0, 0, 0.2) 0px 5px 10px 0px",
+      "border": "2px solid rgb(255, 255, 255)"
+    },
+    "card": {
+      "padding": "0px 0px 3px",
+      "borderRadius": "0px",
+      "background": "transparent",
+      "color": "#ffffff",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "boxShadow": "none",
+      "border": ""
+    }
+  },
+  "assets": [
+    { "role": "logo", "url": "inline-svg:VML wordmark (header sprite symbol, viewBox 0 0 62 19, fill currentColor)", "file": "assets/logo-header.svg" },
+    { "role": "logo-mark", "url": "inline-svg:VML (header logo, aria-label 'VML')", "file": "assets/logo.svg" },
+    { "role": "logo-inverted", "url": "inline-svg:VML wordmark rendered white-on-black in footer (currentColor #ffffff)", "file": "assets/logo-header.svg" },
+    { "role": "favicon", "url": "https://www.vml.com/favicon.svg?v=2024", "file": "assets/favicon.svg" },
+    { "role": "icon", "url": "https://www.vml.com/apple-touch-icon.png?v=2024", "file": "assets/apple-touch-icon.png" },
+    { "role": "icon", "url": "inline-svg:LinkedIn social icon (footer sprite symbol)", "file": "assets/icons/linkedin.svg" },
+    { "role": "icon", "url": "inline-svg:Has Awards badge icon (sprite symbol)", "file": "assets/icons/awards.svg" },
+    { "role": "image", "url": "https://www.vml.com/img/vml-logo-seo-4x3.jpg", "file": "assets/vml-logo-seo-4x3.jpg" },
+    { "role": "image", "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/01/dqxnv7tu4cl9tp6ototl/f1002026hero.jpg", "file": "assets/imagery/future100-hero.jpg" },
+    { "role": "image", "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/06/too0eprpx73fclzh5tbh/recognitionvmltitaniumoreocows.jpg", "file": "assets/imagery/oreo-cows.jpg" },
+    { "role": "image", "url": "https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2026/05/xtvkz5ehvh6ogcyaiqzv/vmlcanneslions2026mainheroimage.jpg", "file": null }
+  ],
+  "gaps": [
+    "No designed action/link color found: links render in browser-default #0000ee (UA stylesheet). Primary set to the dominant brand color #000000 (black). colorUsage.link captures the footer/nav pattern (white #ffffff link text on black), the only intentional link styling observed.",
+    "No brand semantic colors (success/warning/error/info) detected. #32ae88 green and #3860be blue belong to the third-party OneTrust cookie widget, not the brand, and were dropped.",
+    "Single type family only (SnowflakeSans); no distinct body-vs-heading family and no monospace family. Weight 600 (SnowflakeSans-Medium) is loaded and used by h4, so it is included in weights.",
+    "Decorative accent-tile set present (#983f03 amber, #546232 olive, #723065 purple, #ae7408 amber) beyond the single 'accent' slot filled by #104b68; schema allows only one accent string.",
+    "No radius:none (0) signal in tokens; smallest observed radius is ~2px. The card component recipe does use borderRadius 0px, carried verbatim in components.card.",
+    "Manifest reconciliation: manifest theme_color and background_color are both #ffffff, which map to palette neutral.0 (the brand's white canvas / colorUsage.background), NOT to primary #000000. Consistent with VML's white-base, black-ink system, so no palette change was made.",
+    "darkMode is null: no prefers-color-scheme dark rules were crawled. The white-on-black footer and inverted logo are per-section design, not a global dark theme/toggle.",
+    "Breakpoints collapsed from 25 raw min/max-width values to the 5 recognizable device tiers present in the raw set (600/768/1024/1280/1440px); many intermediate values (425/426, 599/600, 768/769, 896/897, 979/980, 1023/1024, 1179/1180) are off-by-one min/max boundary pairs, not distinct tiers.",
+    "Third-party OneTrust-hosted VML logo (cdn.cookielaw.org/.../vml-logo.png) dropped from assets: it is the brand mark but delivered via the cookie-consent widget CDN, not a first-party brand asset; the first-party SVG logos cover the role."
+  ]
+}

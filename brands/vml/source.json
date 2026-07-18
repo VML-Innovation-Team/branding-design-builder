@@ -1,0 +1,28 @@
+{
+  "url": "https://www.vml.com/",
+  "brandSlug": "vml",
+  "crawledAt": "2026-07-18T15:40:00Z",
+  "discovery": {
+    "method": "nav-links",
+    "note": "robots.txt has no Sitemap directive; sitemap.xml + common variants all returned HTTP 403 to curl. Fell back to homepage nav/footer link scraping via Playwright, scored URLs for brand-relevant paths (about|press|news|work|expertise|insights), hard cap 8 pages.",
+    "robotsTxt": true,
+    "sitemapXml": false,
+    "sitemapStatus": "403"
+  },
+  "pagesVisited": [
+    "https://www.vml.com/",
+    "https://www.vml.com/about-us",
+    "https://www.vml.com/work",
+    "https://www.vml.com/press-center",
+    "https://www.vml.com/news",
+    "https://www.vml.com/expertise",
+    "https://www.vml.com/insights"
+  ],
+  "toolsUsed": ["playwright"],
+  "degrades": [
+    "sitemap.xml and index variants returned HTTP 403 to curl; discovery degraded to nav-link scraping.",
+    "Content signals captured via Playwright DOM text (last-resort path): Firecrawl key not set, crawl4ai/Composio not invoked.",
+    "Logo and icons are delivered as an SVG <use> sprite; symbol geometry was resolved from the in-DOM sprite defs and saved as standalone SVG files.",
+    "contact-us was in the candidate set but not crawled — 7 brand-relevant pages gave fully saturated, stable signals before reaching the cap."
+  ]
+}

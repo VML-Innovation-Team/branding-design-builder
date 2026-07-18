@@ -1,0 +1,180 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Brand Raw Signals",
+  "description": "Stage-1 (brand-crawler) output: raw, uninterpreted extraction signals.",
+  "type": "object",
+  "required": ["brandSlug", "colors", "typography", "assets"],
+  "properties": {
+    "brandSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["value", "count"],
+        "properties": {
+          "value": { "type": "string", "description": "hex or rgb(a)" },
+          "count": { "type": "integer", "minimum": 1 },
+          "property": { "type": "string" },
+          "example": { "type": "string" }
+        }
+      }
+    },
+    "typography": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fontFamily": { "type": "string" },
+          "fontSize": { "type": "string" },
+          "fontWeight": { "type": ["string", "integer"] },
+          "lineHeight": { "type": ["string", "number"] },
+          "letterSpacing": { "type": "string" },
+          "role": { "type": "string", "description": "observed role e.g. h1, body" },
+          "count": { "type": "integer" }
+        }
+      }
+    },
+    "fonts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["family"],
+        "properties": {
+          "family": { "type": "string" },
+          "weights": { "type": "array", "items": { "type": ["string", "integer"] } },
+          "srcUrl": { "type": ["string", "null"] },
+          "file": { "type": ["string", "null"], "description": "saved path under assets/fonts/, or null" },
+          "downloaded": { "type": "boolean" },
+          "source": { "type": "string", "enum": ["self-hosted", "google", "proprietary"] }
+        }
+      }
+    },
+    "spacing": { "type": "array", "items": { "type": "string" } },
+    "radii": { "type": "array", "items": { "type": "string" } },
+    "shadows": { "type": "array", "items": { "type": "string" } },
+    "gradients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["value"],
+        "properties": {
+          "value": { "type": "string", "description": "full CSS gradient value" },
+          "count": { "type": "integer" }
+        }
+      }
+    },
+    "colorPairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "selector": { "type": "string" },
+          "color": { "type": "string" },
+          "background": { "type": "string" },
+          "role": { "type": "string", "description": "e.g. body, link, button, card" }
+        }
+      }
+    },
+    "motion": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "value": { "type": "string", "description": "transition/animation shorthand or keyframes name" },
+          "duration": { "type": "string" },
+          "easing": { "type": "string" },
+          "count": { "type": "integer" }
+        }
+      }
+    },
+    "logoVariants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role"],
+        "properties": {
+          "role": { "type": "string", "description": "header, footer, mark, inverted, etc." },
+          "url": { "type": ["string", "null"] },
+          "file": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "icons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "style": { "type": "string", "description": "stroke | filled" },
+          "strokeWidth": { "type": ["string", "null"] },
+          "file": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "imagery": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "aspectRatio": { "type": ["string", "null"] },
+          "kind": { "type": "string", "description": "photo | illustration | vector | unknown" },
+          "file": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "components": {
+      "type": "object",
+      "description": "computed recipes keyed by component name (button, card, ...)",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "padding": { "type": "string" },
+          "borderRadius": { "type": "string" },
+          "background": { "type": "string" },
+          "color": { "type": "string" },
+          "fontSize": { "type": "string" },
+          "fontWeight": { "type": ["string", "integer"] },
+          "boxShadow": { "type": "string" },
+          "border": { "type": "string" }
+        }
+      }
+    },
+    "breakpoints": { "type": "array", "items": { "type": "string" } },
+    "darkMode": {
+      "type": ["object", "null"],
+      "properties": {
+        "colors": { "type": "array", "items": { "type": "object" } }
+      }
+    },
+    "manifest": {
+      "type": ["object", "null"],
+      "properties": {
+        "name": { "type": "string" },
+        "theme_color": { "type": "string" },
+        "background_color": { "type": "string" },
+        "icons": { "type": "array" }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string", "description": "absolute URL, or 'inline-svg:<desc>' for DOM-embedded logos" },
+          "hint": { "type": "string", "description": "crawler guess: logo, favicon, icon, image" },
+          "file": { "type": ["string", "null"], "description": "saved path under assets/, or null if not downloaded" }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "properties": {
+        "headline": { "type": "string" },
+        "tagline": { "type": "string" },
+        "valueProps": { "type": "array", "items": { "type": "string" } },
+        "tone": { "type": "string" }
+      }
+    }
+  }
+}
