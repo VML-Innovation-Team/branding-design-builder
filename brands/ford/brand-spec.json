@@ -1,0 +1,142 @@
+{
+  "brandSlug": "ford",
+  "palette": {
+    "primary": "#0562D2",
+    "secondary": "#00095B",
+    "accent": "#008CBA",
+    "neutral": {
+      "0": "#FFFFFF",
+      "50": "#F0F0F0",
+      "100": "#E5E5E5",
+      "300": "#B2B2B2",
+      "500": "#616161",
+      "700": "#4D4D4D",
+      "800": "#333333",
+      "900": "#000000"
+    },
+    "semantic": {
+      "success": "#6AAD40"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "heading": "FordFontVietnamese",
+      "body": "FordFontVietnamese, Arial, sans-serif"
+    },
+    "scale": {
+      "xs": "12px",
+      "sm": "14px",
+      "base": "16px",
+      "3xl": "40px",
+      "4xl": "48px"
+    },
+    "weights": [200, 400, 500, 600],
+    "lineHeights": {
+      "body": 1.5,
+      "heading": 1.2
+    }
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "14": "56px",
+    "18": "72px",
+    "20": "80px",
+    "28": "112px"
+  },
+  "radii": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "16px",
+    "xl": "20px",
+    "full": "400px",
+    "circle": "50%"
+  },
+  "shadows": {
+    "sm": "rgba(0, 0, 0, 0.15) 0px 2px 3px 0px",
+    "md": "rgba(0, 0, 0, 0.08) 0px 6px 8px -1px, rgba(0, 0, 0, 0.06) 0px -1px 2px 0px",
+    "lg": "rgba(0, 0, 0, 0.15) 0px 4px 24px 0px",
+    "xl": "rgba(0, 0, 0, 0.28) 0px 2px 12px 0px",
+    "offset": "rgba(0, 0, 0, 0.1) 10px 10px 10px 0px"
+  },
+  "gradients": {
+    "hero": "linear-gradient(0deg, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 80%)",
+    "overlay": "linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.25) 60%, rgba(0, 0, 0, 0) 100%)",
+    "overlayStrong": "linear-gradient(to top, rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%)"
+  },
+  "motion": {
+    "durations": {
+      "fast": "0.18s",
+      "base": "0.4s",
+      "slow": "0.5s",
+      "slower": "1s"
+    },
+    "easings": {
+      "standard": "ease-in-out",
+      "in": "ease-in",
+      "default": "ease"
+    }
+  },
+  "colorUsage": {
+    "text": "#000000",
+    "background": "#FFFFFF",
+    "link": "#0562D2",
+    "buttonFill": "#0562D2",
+    "buttonText": "#FFFFFF"
+  },
+  "breakpoints": {
+    "xs": "400px",
+    "sm": "576px",
+    "md": "768px",
+    "lg": "992px",
+    "xl": "1200px",
+    "2xl": "1440px"
+  },
+  "darkMode": null,
+  "components": {
+    "button": {
+      "padding": "5px",
+      "borderRadius": "0px",
+      "background": "#2D96CD",
+      "color": "#FFFFFF",
+      "fontSize": "14px",
+      "fontWeight": 200,
+      "boxShadow": "rgba(0, 0, 0, 0.15) 0px 2px 3px 0px",
+      "border": "1px solid #2D96CD",
+      "tokenRefs": { "boxShadow": "shadows.sm", "color": "neutral.0" }
+    },
+    "buttonPrimaryFill": {
+      "background": "#0562D2",
+      "color": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "borderRadius": "400px",
+      "tokenRefs": { "background": "palette.primary", "color": "neutral.0", "borderRadius": "radii.full", "fontSize": "typography.scale.base" }
+    }
+  },
+  "assets": [
+    { "role": "logo", "url": "inline-svg:Ford oval header logo (navy #00095B, white script)", "file": "assets/logo.svg" },
+    { "role": "favicon", "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/img/shared/favicon-180x180.png", "file": "assets/favicon.png" },
+    { "role": "apple-touch-icon", "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/img/shared/shortcut-icon-180px.png", "file": "assets/apple-touch-icon.png" },
+    { "role": "font", "url": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Regular.woff2", "file": "assets/fonts/FordFontVietnamese-Regular.woff2" },
+    { "role": "font", "url": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Medium.woff2", "file": "assets/fonts/FordFontVietnamese-Medium.woff2" },
+    { "role": "font", "url": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Bold.woff2", "file": "assets/fonts/FordFontVietnamese-Bold.woff2" },
+    { "role": "image", "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/homepage/billboard/billboard-1-desktop.png", "file": "assets/imagery/billboard-1-desktop.png" },
+    { "role": "icon", "url": "/etc.clientlibs/common/clientlibs/skin/ford/resources/img/shared/shortcut-icon-192px.png", "file": null },
+    { "role": "icon", "url": "/etc.clientlibs/common/clientlibs/skin/ford/resources/img/shared/shortcut-icon-512px.png", "file": null }
+  ],
+  "gaps": [
+    "Semantic palette incomplete: only success (#6AAD40, hybrid badge icon) detectable; no warning/error/info signals present.",
+    "Default anchor color #0000EE (52 uses) treated as unstyled browser default and dropped; link role mapped to primary #0562D2 (styled action blue).",
+    "Second subsite (/about) uses a distinct teal+slate palette: heading slate #1B394E (491 uses) and body #616161 were folded into neutral where grey; slate #1B394E is bluish and not mapped to a core role.",
+    "Manifest theme_color #0276b3 (teal) reconciled to the accent cluster represented by #008CBA (highest-frequency teal, 35 uses); it is not an exact palette hex.",
+    "Compound radius '0px 0px 10px 10px' (card bottom corners) dropped as a one-off; not representable in the named radius scale.",
+    "Font families FordFont and readySetFord are declared in @font-face but were not downloaded (file null); heading/body resolved to the self-hosted FordFontVietnamese.",
+    "Near-duplicate breakpoints (575/576, 767/768, 991/992, 1023/1024, 1199/1200, 1279/1280, 1440/1441, 600, 1552) collapsed to canonical sm/md/lg/xl/2xl steps."
+  ]
+}

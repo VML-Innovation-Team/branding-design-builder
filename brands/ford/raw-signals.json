@@ -1,0 +1,153 @@
+{
+  "brandSlug": "ford",
+  "colors": [
+    { "value": "#000000", "count": 784, "property": "color", "example": "body text / default" },
+    { "value": "#F0F0F0", "count": 490, "property": "color", "example": "light text on dark" },
+    { "value": "#333333", "count": 192, "property": "color", "example": "secondary text" },
+    { "value": "#FFFFFF", "count": 170, "property": "color", "example": "inverse text" },
+    { "value": "#0000EE", "count": 52, "property": "color", "example": "default anchor link" },
+    { "value": "#5E5E5E", "count": 48, "property": "color", "example": "muted text" },
+    { "value": "#FFFFFF", "count": 37, "property": "backgroundColor", "example": "page/card background" },
+    { "value": "#E5E5E5", "count": 32, "property": "borderColor", "example": "divider" },
+    { "value": "#0562D2", "count": 27, "property": "borderColor", "example": "primary blue border" },
+    { "value": "#0562D2", "count": 25, "property": "color", "example": "primary action blue" },
+    { "value": "#0068D0", "count": 24, "property": "color", "example": "link/action blue" },
+    { "value": "#00095B", "count": 21, "property": "color", "example": "Ford brand dark blue" },
+    { "value": "#666666", "count": 17, "property": "color", "example": "muted text" },
+    { "value": "#B2B2B2", "count": 17, "property": "backgroundColor", "example": "disabled/placeholder" },
+    { "value": "#010203", "count": 13, "property": "color", "example": "near-black text" },
+    { "value": "#0562D2", "count": 11, "property": "backgroundColor", "example": "primary button fill" },
+    { "value": "#000000", "count": 7, "property": "backgroundColor", "example": "dark section" },
+    { "value": "#4D4D4D", "count": 5, "property": "backgroundColor", "example": "dark surface" },
+    { "value": "#388CF2", "count": 3, "property": "color", "example": "lighter accent blue" },
+    { "value": "#00095B", "count": 3, "property": "fill", "example": "logo oval fill" },
+    { "value": "#6AAD40", "count": 2, "property": "fill", "example": "hybrid badge green icon" },
+    { "value": "#2B64F6", "count": 2, "property": "fill", "example": "icon blue" },
+    { "value": "#066FEF", "count": 2, "property": "backgroundColor", "example": "accent blue surface" },
+    { "value": "#009CC8", "count": 1, "property": "fill", "example": "electric badge icon" },
+    { "value": "#00A5B5", "count": 1, "property": "fill", "example": "electric (canada) badge icon" },
+    { "value": "#1B394E", "count": 491, "property": "color", "example": "about page heading slate" },
+    { "value": "#616161", "count": 229, "property": "color", "example": "about page body text" },
+    { "value": "#008CBA", "count": 35, "property": "color", "example": "about page teal link" },
+    { "value": "#A8A8A8", "count": 12, "property": "color", "example": "about page muted" },
+    { "value": "#2596CF", "count": 10, "property": "color", "example": "about page teal accent" },
+    { "value": "#F1F2F2", "count": 5, "property": "backgroundColor", "example": "about page light surface" },
+    { "value": "#2D96CD", "count": 2, "property": "backgroundColor", "example": "about consent button fill" },
+    { "value": "#F7F7F7", "count": 2, "property": "backgroundColor", "example": "about page off-white" }
+  ],
+  "typography": [
+    { "role": "h3", "fontFamily": "FordFontVietnamese", "fontSize": "48px", "fontWeight": "600", "lineHeight": "56px", "letterSpacing": "normal" },
+    { "role": "h2", "fontFamily": "FordFontVietnamese", "fontSize": "40px", "fontWeight": "600", "lineHeight": "48px", "letterSpacing": "normal" },
+    { "role": "p", "fontFamily": "FordFontVietnamese", "fontSize": "16px", "fontWeight": "500", "lineHeight": "24px", "letterSpacing": "normal" },
+    { "role": "body", "fontFamily": "FordFontVietnamese, Arial, sans-serif", "fontSize": "16px", "fontWeight": "400", "lineHeight": "normal", "letterSpacing": "normal" },
+    { "role": "a", "fontFamily": "FordFontVietnamese, Arial, sans-serif", "fontSize": "12px", "fontWeight": "400", "lineHeight": "24px", "letterSpacing": "normal" },
+    { "role": "button", "fontFamily": "FordFontVietnamese, sans-serif", "fontSize": "16px", "fontWeight": "400", "lineHeight": "24px", "letterSpacing": "normal" }
+  ],
+  "fonts": [
+    { "family": "FordFontVietnamese", "weights": ["100 400", "500 600", "700 900"], "srcUrl": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Regular.woff2", "file": "assets/fonts/FordFontVietnamese-Regular.woff2", "downloaded": true, "source": "self-hosted" },
+    { "family": "FordFontVietnamese", "weights": ["500 600"], "srcUrl": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Medium.woff2", "file": "assets/fonts/FordFontVietnamese-Medium.woff2", "downloaded": true, "source": "self-hosted" },
+    { "family": "FordFontVietnamese", "weights": ["700 900"], "srcUrl": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Bold.woff2", "file": "assets/fonts/FordFontVietnamese-Bold.woff2", "downloaded": true, "source": "self-hosted" },
+    { "family": "FordFont", "weights": ["100 300", "400", "500", "600", "700 900"], "srcUrl": "https://www.ford.com/shared/fonts/f1/regular.woff2", "file": null, "downloaded": false, "source": "self-hosted" },
+    { "family": "readySetFord", "weights": [], "srcUrl": "https://www.ford.com/shared/fonts/f1/american-grotesk-regular.woff2", "file": null, "downloaded": false, "source": "self-hosted" }
+  ],
+  "spacing": ["4px", "8px", "12px", "16px", "24px", "32px", "40px", "56px", "72px", "80px", "112px"],
+  "radii": ["6px", "8px", "16px", "20px", "400px", "50%", "0px 0px 10px 10px"],
+  "shadows": [
+    "rgba(0, 0, 0, 0.15) 0px 4px 24px 0px",
+    "rgba(0, 0, 0, 0.08) 0px 6px 8px -1px, rgba(0, 0, 0, 0.06) 0px -1px 2px 0px",
+    "rgba(0, 0, 0, 0.1) 10px 10px 10px 0px",
+    "rgba(0, 0, 0, 0.15) 0px 2px 3px 0px",
+    "rgba(0, 0, 0, 0.28) 0px 2px 12px 0px"
+  ],
+  "gradients": [
+    { "value": "linear-gradient(0deg, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 80%)", "count": 14 },
+    { "value": "linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 80%)", "count": 3 },
+    { "value": "linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.25) 60%, rgba(0, 0, 0, 0) 100%)", "count": 2 },
+    { "value": "linear-gradient(rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0))", "count": 1 },
+    { "value": "linear-gradient(to top, rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%)", "count": 1 }
+  ],
+  "colorPairs": [
+    { "selector": "body", "color": "#000000", "background": "#FFFFFF", "role": "body" },
+    { "selector": "a", "color": "#0000EE", "background": "transparent", "role": "link" },
+    { "selector": "button", "color": "#000000", "background": "transparent", "role": "button" },
+    { "selector": "header", "color": "#000000", "background": "transparent", "role": "header" },
+    { "selector": "primary button (about consent)", "color": "#FFFFFF", "background": "#2D96CD", "role": "button" }
+  ],
+  "motion": [
+    { "value": "width 0.4s ease-in-out, height 0.4s ease-in-out", "duration": "0.4s", "easing": "ease-in-out", "count": 22 },
+    { "value": "0.25s ease-in", "duration": "0.25s", "easing": "ease-in", "count": 14 },
+    { "value": "bottom 0.4s ease-in-out", "duration": "0.4s", "easing": "ease-in-out", "count": 14 },
+    { "value": "opacity 0.5s ease-in-out", "duration": "0.5s", "easing": "ease-in-out", "count": 13 },
+    { "value": "color 0.4s ease-in-out", "duration": "0.4s", "easing": "ease-in-out", "count": 11 },
+    { "value": "transform 0.5s, -webkit-transform 0.5s", "duration": "0.5s", "easing": "ease", "count": 8 },
+    { "value": "clip-path 0.4s ease-in-out 0.12s, visibility 0s 0.52s", "duration": "0.4s", "easing": "ease-in-out", "count": 6 },
+    { "value": "transform 1s ease-in-out, -webkit-transform 1s ease-in-out", "duration": "1s", "easing": "ease-in-out", "count": 4 },
+    { "value": "background-color 0.18s ease-in", "duration": "0.18s", "easing": "ease-in", "count": 3 }
+  ],
+  "logoVariants": [
+    { "role": "header", "url": "inline-svg:Ford oval wordmark, viewBox 0 0 80 30, navy #00095B oval with white script", "file": "assets/logo.svg" }
+  ],
+  "icons": [
+    { "style": "filled", "strokeWidth": null, "file": null },
+    { "style": "stroke", "strokeWidth": "1.5px", "file": null }
+  ],
+  "imagery": [
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/homepage/billboard/billboard-1-desktop.png", "aspectRatio": "1.78", "kind": "photo", "file": "assets/imagery/billboard-1-desktop.png" },
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/homepage/billboard/billboard-3-everest-desktop.png", "aspectRatio": "1.78", "kind": "photo", "file": null },
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/homepage/billboard/billboard-2-ranger-desktop.png", "aspectRatio": "1.78", "kind": "photo", "file": null },
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/homepage/vehicle-highlights/ford-everest-platinum-desktop.webp", "aspectRatio": "2.33", "kind": "photo", "file": null },
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/homepage/vehicle-highlights/ford-ranger-raptor-desktop.webp", "aspectRatio": "2.33", "kind": "photo", "file": null }
+  ],
+  "components": {
+    "button": {
+      "padding": "5px",
+      "borderRadius": "0px",
+      "background": "#2D96CD",
+      "color": "#FFFFFF",
+      "fontSize": "14px",
+      "fontWeight": 200,
+      "boxShadow": "rgba(0, 0, 0, 0.15) 0px 2px 3px 0px",
+      "border": "1px solid #2D96CD"
+    },
+    "buttonPrimaryFill": {
+      "background": "#0562D2",
+      "color": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "borderRadius": "400px"
+    }
+  },
+  "breakpoints": ["400px", "575px", "600px", "767px", "768px", "991px", "992px", "1023px", "1024px", "1199px", "1200px", "1279px", "1280px", "1440px", "1441px", "1552px"],
+  "darkMode": null,
+  "manifest": {
+    "name": "Ford",
+    "theme_color": "#0276b3",
+    "background_color": "#ffffff",
+    "icons": [
+      { "src": "/etc.clientlibs/common/clientlibs/skin/ford/resources/img/shared/shortcut-icon-192px.png", "type": "image/png", "sizes": "192x192" },
+      { "src": "/etc.clientlibs/common/clientlibs/skin/ford/resources/img/shared/shortcut-icon-512px.png", "type": "image/png", "sizes": "512x512" }
+    ]
+  },
+  "assets": [
+    { "url": "inline-svg:Ford oval header logo (navy #00095B, white script)", "hint": "logo", "file": "assets/logo.svg" },
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/img/shared/favicon-180x180.png", "hint": "favicon", "file": "assets/favicon.png" },
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/img/shared/shortcut-icon-180px.png", "hint": "apple-touch-icon", "file": "assets/apple-touch-icon.png" },
+    { "url": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Regular.woff2", "hint": "font", "file": "assets/fonts/FordFontVietnamese-Regular.woff2" },
+    { "url": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Medium.woff2", "hint": "font", "file": "assets/fonts/FordFontVietnamese-Medium.woff2" },
+    { "url": "https://www.ford.com/shared/fonts/f1/FordF1Vietnamese-Bold.woff2", "hint": "font", "file": "assets/fonts/FordFontVietnamese-Bold.woff2" },
+    { "url": "https://www.ford.com.vn/content/dam/na/ford/vi_vn/homepage/billboard/billboard-1-desktop.png", "hint": "image", "file": "assets/imagery/billboard-1-desktop.png" }
+  ],
+  "content": {
+    "headline": "Dấn Bước. Dẫn Đầu.",
+    "tagline": "Không Gì Chất Như Ranger",
+    "valueProps": [
+      "Ưu đãi lãi suất 0% khi mua Ford Territory & Ford Transit",
+      "Tặng Thẻ Thay và Lọc dầu nhớt OSP khi mua Ford Everest",
+      "Khám Phá Các Dòng Xe Ford",
+      "Đi Tới Trải Nghiệm Mới",
+      "Biểu Tượng Tự Do Thuộc Về Bạn",
+      "Khơi nguồn trải nghiệm lái hoàn hảo"
+    ],
+    "tone": "Confident, aspirational, action-oriented Vietnamese automotive marketing. Short imperative slogans (Dấn Bước. Dẫn Đầu. = Step forward. Lead.), emphasis on adventure, freedom, and product strength. Meta description: official Ford Vietnam site for pickups, 5/7-seat SUVs and vans, test-drive booking and dealer locator."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ford.com.vn/",
+  "brandSlug": "ford",
+  "crawledAt": "2026-07-18T17:09:57Z",
+  "pagesVisited": [
+    "https://www.ford.com.vn/",
+    "https://www.ford.com.vn/about/"
+  ],
+  "discovery": "sitemap",
+  "toolsUsed": [
+    "curl (robots.txt + sitemap.xml + manifest + asset/font download)",
+    "playwright (browser_navigate, browser_evaluate computed-CSS, browser_take_screenshot)"
+  ],
+  "degrades": [
+    "Content signals: Firecrawl not wired (no FIRECRAWL_API_KEY) and Composio not invoked; fell back to Playwright snapshot/DOM text for copy/tone. Visual tokens still from Playwright computed CSS.",
+    "Sitemap-selected design page https://www.ford.com.vn/next-gen-vehicle/next-generation-ranger/design/ returned 404 at crawl time; substituted https://www.ford.com.vn/about/ (also brand-relevant) to stay within the page cap."
+  ]
+}
